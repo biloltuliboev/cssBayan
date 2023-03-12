@@ -107,3 +107,48 @@ h1 {
 		max-width: 40rem;
 	}
 }
+
+/* breakpoint: 820 */
+@media (max-width: 820px) {
+	body {
+		font-size: 2rem;
+	}
+
+	h1 {
+		font-size: 3.6rem;
+		margin-bottom: 3.2rem;
+	}
+
+	.accordion-head svg {
+		width: 2.4rem;
+		height: 2.4rem;
+	}
+}
+
+/* breakpoint: 576 */
+@media (max-width: 576px) {
+	body {
+		font-size: 1.6rem;
+	}
+}
+
+/* breakpoint: 320 */
+@media (max-width: 320px) {
+	body {
+		font-size: 1.4rem;
+	}
+
+	h1 {
+		font-size: 3.2rem;
+	}
+
+	.accordion-head svg {
+		width: 2rem;
+		height: 2rem;
+	}
+
+	.container {
+		padding-top: 0.8rem;
+		padding-bottom: 0.8rem;
+	}
+}
